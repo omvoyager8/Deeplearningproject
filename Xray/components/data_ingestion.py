@@ -18,6 +18,10 @@ class DataIngestion:
     def get_data_from_s3(self):
         try:
             logging.info("Entered the get_data_from_s3 method of Data ingestion class")
+            
+            print("Bucket Name:", self.data_ingestion_config.bucket_name)
+            print("S3 Data Folder:", self.data_ingestion_config.s3_data_folder)
+            print("Local Data Path:", self.data_ingestion_config.data_path)
 
             self.s3.sync_folder_from_s3(
                 folder=self.data_ingestion_config.data_path,

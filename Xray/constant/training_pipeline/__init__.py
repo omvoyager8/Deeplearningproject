@@ -6,7 +6,7 @@ TIMESTAMP: datetime=datetime.now().strftime("%m_%d_%Y_%H_%M_%S")
 
 ARTIFACT_DIR: str="artifacts"
 
-BUCKET_NAME: str="xraylungimgs"
+BUCKET_NAME: str="xraylungimgs603414745157"
 
 S3_DATA_FOLDER: str= "data"
 

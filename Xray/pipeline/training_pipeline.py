@@ -9,8 +9,8 @@ class TrainPipeline:
     def __init__(self):
         self.data_ingestion_config=DataIngestionConfig()
         
-        def start_data_ingestion(self) -> DataIngestionArtifact:
-            logging.info("Entered the start_data_ingestion method of TrainPipeline class")
+    def start_data_ingestion(self) -> DataIngestionArtifact:
+        logging.info("Entered the start_data_ingestion method of TrainPipeline class")
         try:
 
             logging.info("Getting the data from s3 bucket")
