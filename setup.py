@@ -21,7 +21,7 @@ name="Xray",
 version="0.0.1",
 author="om gonjari",
 author_email="omgonjari2004@gmail.com",
-install_requires=get_requirements(r"C:\\Users\\ACER\\DLproject\\requirement_dev.txt"),
+install_requires=get_requirements(r"C:\\Users\\ACER\\DLproject\\newrequirements.txt"),
 package=find_packages()
     
 )
