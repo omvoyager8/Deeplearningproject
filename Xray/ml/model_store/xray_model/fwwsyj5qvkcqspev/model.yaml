@@ -1,0 +1,18 @@
+name: xray_model
+version: fwwsyj5qvkcqspev
+module: bentoml.pytorch
+labels: {}
+options:
+  partial_kwargs: {}
+metadata: {}
+context:
+  framework_name: torch
+  framework_versions:
+    torch: 2.8.0
+  bentoml_version: 1.4.25
+  python_version: 3.10.0
+signatures:
+  __call__:
+    batchable: false
+api_version: v1
+creation_time: '2025-10-24T07:22:20.575803+00:00'

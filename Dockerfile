@@ -6,6 +6,7 @@ WORKDIR /app
 
 # Copy project files
 COPY . /app
+COPY Xray/ml/model_store /root/bentoml/models
 
 # Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
@@ -14,4 +15,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 3000
 
 # Start your BentoML service
-CMD ["bentoml", "serve", "."]
+CMD ["bentoml", "serve", ".", "--host", "0.0.0.0", "--port", "3000"]
+
