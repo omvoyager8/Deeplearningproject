@@ -6,7 +6,7 @@ labels:
     stage: dev
 include:
     - "Xray/"
-    - "newrequirements.txt"
+    - "requirements.txt"
 python:
     packages:
         - torch
